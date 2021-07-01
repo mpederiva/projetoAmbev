@@ -1,0 +1,203 @@
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    background-image: linear-gradient(to bottom right, #416B8C, #BCD0E0); /* editar */
+    margin:0;
+    background-repeat: no-repeat;
+}
+header{
+    text-align: right;
+    display: inline-flex;
+    align-items: center;
+    background-color: #2d2a25;
+    width: 100%;
+    position: fixed;
+}
+
+header a{
+    margin:10px;
+    margin-left: 9%;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 0%;
+    text-align: right;
+}
+
+.menu{
+    border:1px solid rgba(255, 255, 255, 0.3);
+}
+.menu img{
+    width: 15%;
+    margin: 0;
+    margin-left: 0,5%;
+    display: inline;
+}
+
+/* Doação */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.parabens{
+    width: 300px;
+    webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #264773, 0 0 40px #264773, 0 0 50px #264773, 0 0 60px #264773, 0 0 70px #264773;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #416B8C, 0 0 40px #416B8C, 0 0 50px #416B8C, 0 0 60px #416B8C, 0 0 70px #416B8C, 0 0 80px #416B8C;
+    }
+}
+
+.gota{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.gota *{
+    text-align: center;
+}
+.gotaImg{
+    width:250px;
+}
+.clique{
+    text-decoration: underline;
+    display: inline;
+}
+
+/* Projeto*/
+.tituloProjeto{
+    margin-top: 15%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stituloProjeto{
+    margin: auto 1%;
+    color: #BFBFBF;
+}
+
+.split {
+    z-index:1;
+    overflow-x:hidden;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+.left {
+    left: 0;
+    background-color: 
+    border: 3px solid #416B8C;
+    float:left; 
+    width:50%;
+    margin: auto;
+    color: #BCD0E0;
+}
+
+.paragrafo{
+    font-style: italic;
+    color: #D9D9D9f
+}
+  
+.right {
+    right: 0;
+    background-color: #416B8C;
+    border: 3px dotted #264773;
+    width:45%;
+    float: right;
+    padding: 15px;
+    margin: 5% 1% auto auto;
+}
+
+.obj{
+    color: #ffffff;
+}
+
+#texto{
+    font-style: bold; 
+    font-weight: 100;  
+    margin: 0;
+    padding: 15px;
+}
+
+/* Crise Hídrica*/
+.tituloCrise{
+    margin-top: 15%;
+    color: #264773;
+}
+
+/* E eu*/
+.tituloEu{
+    margin-top: 5%;
+}
+
+.textoEu{
+    background-image: linear-gradient(to bottom right, #416B8C, #BCD0E0); /* editar */
+    border: 3px dotted #264773;
+    padding: 15px;
+}
+
+/*Empresas*/
+.sobreEmpresas{
+    margin-left: 5%; 
+}
+
+.tituloEmpresas{
+    margin-top: 15%;
+    color: #264773;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* Jogo*/
+.container {
+    text-align: center;
+  }
+  
+  .page-title {
+    color: #000000;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #2d2a25;
+    bottom:0 fixed;
+    margin-top: auto;
+    margin-bottom: 0%;
+    padding-bottom: 0.2%;;
+}
+.copy img{
+    width: 20px;
+    margin: 0.5%;    
+}
+.facebook{
+    display: inline;
+}
+.twiter{
+    display: inline;
+}
+.instagram{
+    display: inline;
+}
+.youtube{
+    display: inline;
+}
