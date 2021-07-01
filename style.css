@@ -96,8 +96,6 @@ main{
   
 .left {
     left: 0;
-    background-color: 
-    border: 3px solid #416B8C;
     float:left; 
     width:50%;
     margin: auto;
@@ -106,7 +104,7 @@ main{
 
 .paragrafo{
     font-style: italic;
-    color: #D9D9D9f
+    color: #D9D9D9;
 }
   
 .right {
@@ -179,7 +177,7 @@ main{
 /* Footer */
 footer{
     text-align: center;
-    background-color: #2d2a25;
+    background-color: #BFBFBF;
     bottom:0 fixed;
     margin-top: auto;
     margin-bottom: 0%;
@@ -191,6 +189,7 @@ footer{
 }
 .facebook{
     display: inline;
+    text-decoration: none;
 }
 .twiter{
     display: inline;
@@ -200,4 +199,8 @@ footer{
 }
 .youtube{
     display: inline;
+}
+
+.cv{
+    color: #000000;
 }
